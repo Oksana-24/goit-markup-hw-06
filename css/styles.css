@@ -812,14 +812,14 @@ color: var(--blue-color);
 
 .modal-form-check:checked + .modal-form-icon-check {
 background-color: var(--blue-color);
+border: 0.2px solid var(--blue-color);
 }
 .modal-form-check:checked + .modal-form-icon-check .modal-form-own-icon {
-
     fill: var(--white-color);
-    border: none;
+    /* border: none; */
 }
 .modal-form-check:focus + .modal-form-icon-check {
-    border: 0.2px solid var(--white-color);
+    border: 0.2px solid var(--blue-color);
 }
 
 .modal-form-icon-link {
